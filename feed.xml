@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>7fff</title>
+  <id>http://7fff.com/</id>
+  <link href="http://7fff.com/"/>
+  <link href="http://7fff.com/feed.xml" rel="self"/>
+  <updated>2018-05-25T19:30:00-05:00</updated>
+  <author>
+    <name>jgn</name>
+  </author>
+  <entry>
+    <title>A Middleman Extension for Categories</title>
+    <link rel="alternate" href="http://7fff.com/blog/2018/05/a-middleman-extension-for-categories/"/>
+    <id>http://7fff.com/blog/2018/05/a-middleman-extension-for-categories/</id>
+    <published>2018-05-25T19:30:00-05:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;A few days ago I decided to bring my Middleman setup for this blog completely
+up-to-date with the freshest gems. So now I&amp;#39;m at Middleman 4.2. It was hard
+to get all of the supporting gems to work, and I had to leverage a couple of
+dicey forks, but . . . it all works. Along the way, though, my code for
+categorizing posts stopped working. This blog originated as a WordPress blog,
+and WordPress at some point introduced tags (they had only categories earlier).
+But Middleman Blog only knows tags. So when I &lt;a href="../../../2015/01/moving-from-wordpress-to-middleman-part-i/"&gt;ported my data over from
+WordPress&lt;/a&gt;,
+&lt;a href="../../../2015/02/moving-from-wordpress-to-middleman-part-ii-mulitple-categories-per-post/"&gt;I wrote some code for Middleman so I could have categories there as well&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s how WordPress justifies having both categories and tags:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;&lt;p&gt;Once upon a time, WordPress.com only provided a Category option.&lt;/p&gt;
+
+&lt;p&gt;Categories allowed for a broad grouping of post topics, but when you wanted to describe a post in more specific terms, more categories were required. That led to very long category lists inside the blog and very long lists in Categories Widgets.&lt;/p&gt;
+
+&lt;p&gt;So we now have tags, too.&lt;/p&gt;
+
+&lt;p&gt;Tags are similar to categories, but they are generally used to describe your post in more detail. (&lt;a href="https://en.support.wordpress.com/posts/categories-vs-tags/"&gt;https://en.support.wordpress.com/posts/categories-vs-tags/&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I think that makes sense: Categories for broad buckets / themes / channels, and
+tags to pick out details in the content for a particular post.&lt;/p&gt;
+
+&lt;p&gt;Anyway, &lt;a href="https://github.com/jgn/middleman-categories"&gt;I ported my code over to a Middleman extension&lt;/a&gt;. I also wrote it so
+that if you wanted to categorize your Middleman pages (not just blog articles)
+you can do it. I should probably write some specs and made it a little more
+amenable to other languages, but I think for now I&amp;#39;ll see if anyone bothers
+to star or fork it.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hansen, Great at Work&amp;#58; How Top Performers Do Less, Work Better, and Achieve More (Book Review)</title>
+    <link rel="alternate" href="http://7fff.com/blog/2018/03/hansen-great-at-work-how-top-performers-do-less-work-better-and-achieve-more-book-review/"/>
+    <id>http://7fff.com/blog/2018/03/hansen-great-at-work-how-top-performers-do-less-work-better-and-achieve-more-book-review/</id>
+    <published>2018-03-03T10:15:00-06:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;Morten T. Hansen&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/1476765626/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1476765626&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=6faf2c49d32b4029767a5930132b6796"&gt;Great at Work: How Top Performers Do Less, Work Better, and Achieve More&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1476765626" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; is an attempt to explain how high-performers
+outdo their peers and deliver higher-quality work. The essential teaching of
+the book is that such performers &amp;quot;do less, then obsess&amp;quot;: That is, they are
+very good at prioritizing, focusing on the top one to three things -- then they
+really bear down on those things to the exclusion of everything else. There&amp;#39;s
+a lot more going on, but I think almost anyone would appreciate reading his
+chapter two, where he explains this idea in great detail. I was just looking over
+my own work goals for the coming year, and based on this book, I
+don&amp;#39;t think I have enough focus. I have not created challenges for myself that
+will allow me to &amp;quot;do less, then obsess&amp;quot; and truly succeed at the genuinely
+most important things. I need to declutter my work for the coming year.&lt;/p&gt;
+
+&lt;p&gt;An aside on evidence: Hansen claims that the book is &amp;quot;scientifically validated&amp;quot; (p. 205) and there
+is a lengthy research appendix, but it must be noted that the claims are
+based on self-reported questionnaires: there is no experimental methodology,
+nor is there any predictive quality to the book. What I am trying to get at
+is that even if you change your behaviors in line with the book&amp;#39;s claims about
+performance, there is little here to suggest that your performance will
+necessarily improve. In fact, there&amp;#39;s really no definition of what &amp;quot;performance&amp;quot;
+is. The author associates high performance with notions of &amp;quot;success&amp;quot; and
+&amp;quot;greatness at work&amp;quot; (p. 3). The compound of claiming scientific validity
+with a lack of definitions of terms and experimental method is typical of
+business books (see &lt;a target="_blank" href="https://www.amazon.com/gp/product/0393338525/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0393338525&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=1c309ce29aef1dffa42c308001b8d673"&gt;The Management Myth&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0393338525" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; in particular; &lt;a href="https://www.goodreads.com/review/show/401097678?book_show_action=false&amp;amp;from_review_page=1"&gt;my review&lt;/a&gt;); I mention this just to calibrate the claims.&lt;/p&gt;
+
+&lt;p&gt;With that past us . . . this is a really good book. The claims may have some
+merit, but the stories are what set the book apart. For instance, we learn
+of people who have spread themselves too thin, and/or have hurt themselves
+by making things over-complex (pp. 21-22). The book contains some great directives
+on how to overcome these inhibitors of performance: One I have found helpful
+for myself is the notion that one must sometimes &amp;quot;tie yourself to the mast,&amp;quot; and for
+some time just ignore everything. Sometimes that&amp;#39;s the only thing that will
+work. &lt;em&gt;Pick your focus time in advance, close the door, turn off the phone,
+and do nothing else until done&lt;/em&gt; (see pp. 33-34).&lt;/p&gt;
+
+&lt;p&gt;There are other insights that made me stop in my tracks. One is that you
+might judge your work by &lt;em&gt;how much others benefit from it&lt;/em&gt; rather than
+whether you have merely met your goals. In other words, the value assessment
+is not going to come from you; it&amp;#39;s going to come from others (p. 48).&lt;/p&gt;
+
+&lt;p&gt;Then there&amp;#39;s the question: Well, how do your refine your own work to get
+that short list? The book devotes all of chapter 4 to a strategy called
+&amp;quot;looping&amp;quot; where you are constantly studying your own work, seeking to refine
+it. The book advocates &lt;em&gt;practice&lt;/em&gt;, but especially practice where you are
+concentrating self-consciously on getting better. Your practice should be
+quite mindful, not automatic. I was reminded of the agile/Scrum idea that
+one must &amp;quot;inspect and adapt&amp;quot; in order to improve.&lt;/p&gt;
+
+&lt;p&gt;Chapter 5 is about the compound of passion and purpose: Hansen says you need both.
+According to the book, when you&amp;#39;re passionate about work, you&amp;#39;re energized by it. Purpose is about
+creating values for others. I like these definitions (see p. 90). What was
+for me a tricky point is . . . why must you have passion and purpose both
+together? The reason is this: If you have only purpose (bring value to others) but
+you don&amp;#39;t actually enjoy it, you&amp;#39;ll burn out. If you have only passion (you
+love what you&amp;#39;re doing) but you don&amp;#39;t generate value for others, your work
+is . . . meaningless. Indeed, when you are merely passionate and ignore purpose,
+you may find that your work causes harm because you are only thinking about
+yourself (see pp. 104-106).&lt;/p&gt;
+
+&lt;p&gt;From here, the book expands out to show how
+to bring your passion and purpose to others in the company and get buy-in for projects,
+how to collaborate better (not too much, and not too little; this is an
+interesting tonic to over-collaboration which I have seen a fair amount in
+the workplace). Finally, the book shifts the focus to &amp;quot;do less, and obsess&amp;quot; outside
+of work. The counsel here should be read by anyone who is overwhelmed by the complexities
+of managing home and work. Here and elsewhere, due attention is paid to differences
+in these patterns across gender.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Transitioning to being a Programmer</title>
+    <link rel="alternate" href="http://7fff.com/blog/2018/02/transitioning-to-programming/"/>
+    <id>http://7fff.com/blog/2018/02/transitioning-to-programming/</id>
+    <published>2018-02-18T16:49:00-06:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;So I was talking to a young person (younger than &lt;em&gt;me&lt;/em&gt;, at least) about
+programming. This person is moving from one technology field to
+being a developer / engineer / builder. Courage! For this role, I like the word
+&amp;quot;programmer&amp;quot; myself, because it is pretty narrow and doesn&amp;#39;t require the word
+&amp;quot;software&amp;quot; to be tacked on (as in &amp;quot;software developer&amp;quot; or &amp;quot;software engineer&amp;quot;)
+and it doesn&amp;#39;t make too many assumptions about being embedded in a craft or an
+art, which might be suggested by builder or engineer. (But avoid &amp;quot;web developer&amp;quot; --
+there&amp;#39;s no discipline.) What might this person do to becoming someone who can
+program with facility in a professional setting? Here are some ideas. What
+follows is based on experience (what worked for me): I&amp;#39;m not a big one for
+&amp;quot;advice&amp;quot; but most of these are also patterns I&amp;#39;ve observed in others.&lt;/p&gt;
+
+&lt;p&gt;My assumption is that the person can do some &lt;em&gt;basic&lt;/em&gt; coding in a procedural language like
+Ruby or Python or Java (possibly JavaScript), but does not yet have the fluency / muscle memory that you see
+with sophisticated programmers. The person I imagine has been around technology
+for some time, loves it, and has some hunger.&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;&lt;p&gt;Before I proceed, I want to note that if you want to be a &lt;em&gt;computer scientist&lt;/em&gt;,
+it&amp;#39;s a whole different game. Attempting to become a computer scientist means
+that you have to do the work that will enable you to be &lt;em&gt;recognized&lt;/em&gt; as a computer
+scientist. If you want to teach, get that PhD. If you want to work in industry
+as a computer scientist, I think it is possible to &amp;quot;roll your own&amp;quot; program, but
+you will want to understand the state of the art in terms of what computer scientists
+think you should know. For that, study carefully &lt;a href="https://www.acm.org/education/curricula-recommendations"&gt;the curricula designed by the
+Association for Computing Machinery&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&amp;#39;m proofing this piece, and I&amp;#39;m realizing that there&amp;#39;s a message I need to convey
+explicitly: I love programming. I love the immediate feedback; I love the conversations
+with other people who also love programming; I love to read beautiful code. I also
+love software engineering and computer science, but . . . at the end of the day (I am not
+fond of that expression!) I enjoy working towards code, and working code. &lt;code&gt;#bias&lt;/code&gt;! I don&amp;#39;t
+get to do enough of it these days.&lt;/p&gt;
+
+&lt;h3&gt;Phase I&lt;/h3&gt;
+
+&lt;p&gt;In my experience, the first priority is to set aside 3-6 months in a personal
+crash course in one language and one framework, with a secondary interest in
+another language and a second framework for the purposes of comparison. Some
+people can do this on the job. But basically, one&amp;#39;s brain should be completely
+preoccupied with the languages and the frameworks. (So . . . Stop reading the 5th book in
+that fantasy series; stop going out to dinner and eat with your books and computer open;
+etc.) So the primary might be Ruby/Rails, and the secondary might be
+JavaScript/React. I&amp;#39;m talking saturation. Obsession. &amp;quot;Programming all the time&amp;quot;
+should be your motto. I&amp;#39;m going to talk about books a lot here, but I&amp;#39;m thinking
+about the books being open while you try things out. Think up personal projects;
+check out some open source projects on Github and hack around. But keep coding.
+There are some easy ways to come up with personal projects: &lt;em&gt;I could write
+about that but I&amp;#39;d have to be asked&lt;/em&gt;. I started off writing computer games. &lt;code&gt;#workedforme&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For languages/frameworks, these specific
+languages/frameworks -- Ruby/Rails, JavaScript/React would be my choice. The reason for Ruby as the primary is twofold: the
+Ruby ecosystem has some of the best tools, and the Ruby lineage has some
+fascinating links to SmallTalk and Lisp. (I grant that at the present moment
+Python is in ascendancy, but I still believe Ruby is a lovely language
+for learning.) But my main advice here is to scramble
+and, as much as possible, become a &lt;em&gt;&lt;strong&gt;master&lt;/strong&gt;&lt;/em&gt; in the primary language and
+framework. For this, you should obtain not only the foundational language texts
+like &lt;a target="_blank" href="https://www.amazon.com/gp/product/0974514055/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0974514055&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=4df7727c0b733924fc875108814455a5"&gt;Programming Ruby&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0974514055" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (the Pickaxe) and &lt;a target="_blank" href="https://www.amazon.com/gp/product/0596516177/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596516177&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=ec812f62f5754d2524ed04385f8aba87"&gt;The Ruby Programming Language&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0596516177" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; but
+also books like David Black&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/1617291692/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1617291692&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=664372ddb9a1378b18eb3c2392821461"&gt;The Well-Grounded Rubyist&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1617291692" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; and Russ Olsen&amp;#39;s
+&lt;a target="_blank" href="https://www.amazon.com/gp/product/0321584104/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321584104&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=56da87a5d92b6c221241883ba878b338"&gt;Eloquent Ruby&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0321584104" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. I would very strongly recommend watching Dave Thomas&amp;#39;s
+screencasts on &amp;quot;The Ruby Object Model and Metaprogramming.&amp;quot; A gap I frequently
+see among Rubyists is an insufficient understanding of the standard library;
+therefore, it&amp;#39;s worth it to actually read Part IV of the Pickaxe closely --
+there&amp;#39;s quite a bit of gold in the examples, some of which are clever. For
+Rails, you&amp;#39;d want &lt;a target="_blank" href="https://www.amazon.com/gp/product/1680502514/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1680502514&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=c54cd851ff2e8a61bad45c840d29e25a"&gt;Agile Web Development with Rails&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1680502514" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (Rails 5) along with &lt;a href="https://www.railstutorial.org/"&gt;The
+Ruby on Rails Tutorial&lt;/a&gt; for a second opinion
+(and a more interesting emphasis on testing). The &lt;a href="http://guides.rubyonrails.org/"&gt;Ruby on Rails
+Guides&lt;/a&gt; are also very helpful. I would then
+supplement this with some of the ecosystem resources like &lt;em&gt;The RSpec Book&lt;/em&gt; (its latest
+version: &lt;a target="_blank" href="https://www.amazon.com/gp/product/1680501984/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1680501984&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=733cfd7d2b17dbc975aa1876c19bb4d5"&gt;Effective Testing with RSpec 3&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1680501984" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;). I&amp;#39;m
+not sanguine about JavaScript being the &lt;em&gt;primary&lt;/em&gt; language here, because
+JavaScript&amp;#39;s history is so messy and in reality one is always dealing with
+cruft. It&amp;#39;s possible; I just think that Ruby is more coherent. Ruby is not
+perfect, though, and part of the learning process here is to get a sharp
+understanding of Ruby&amp;#39;s limits -- and cross-learning with another language
+can provide that vantage point. I recommend React strictly because of
+contemporary mindshare; I personally like Ember because its community has
+a lot in common with Ruby&amp;#39;s.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;But the key is mastery. Another word for mastery might be fluency.&lt;/em&gt; What I mean
+by that is that one should have at least one general purpose language baked into
+one&amp;#39;s muscle memory. The idea is that when there comes a need to bang something
+out just to get a feel for an algorithm or technique, there&amp;#39;s a language
+available where your deep knowledge of syntax and the library is never inhibiting the flow
+of your ideas around the programming topic. Mastery/fluency is about knowing the
+language all the way down. You might spend some time with Pat Shaughnessy&amp;#39;s
+&lt;a target="_blank" href="https://www.amazon.com/gp/product/1593275277/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1593275277&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=52e59332b6355499542d52ff045743b8"&gt;Ruby Under a Microscope&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1593275277" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. You want to be able to use &lt;code&gt;pry&lt;/code&gt; and other debuggers.
+With regard to the ecosystem, you should be able to build a gem and a C extension. Beyond just
+knowing Ruby, after this focussed cramming, you should become . . . A &lt;em&gt;Rubyist&lt;/em&gt;.
+Ruby should be a tattoo on your cerebrum. Set yourself assignments. Learn what
+&amp;quot;Ruby One-Liners&amp;quot; and Ruby Koans are, and practice them as finger exercises. Take
+a look at &lt;a href="https://github.com/rubinius/rubinius"&gt;Rubinius&lt;/a&gt;, which is Ruby written in Ruby.&lt;/p&gt;
+
+&lt;p&gt;During this phase, I&amp;#39;d also recommend working at a desk, and use a &lt;a target="_blank" href="https://www.amazon.com/gp/product/B00006B8HT/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00006B8HT&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=96aae72921e3dbf5219da674384fad85"&gt;bookstand&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=B00006B8HT" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; to keep references
+open. It can be helpful to have a printed book and a digital version of another
+resource open on a bookreader or iPad.&lt;/p&gt;
+
+&lt;h3&gt;Phase II&lt;/h3&gt;
+
+&lt;p&gt;The next timeframe is from half-way through the 3-6 month cram course to a
+longer period going into two years. First read &lt;a target="_blank" href="https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=020161622X&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=2483f35b0d6bc2229836d39607b31ca8"&gt;The Pragmatic Programmer&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; and
+get back to me.&lt;/p&gt;
+
+&lt;p&gt;Wow, that was quick. Interesting, eh? That book should make you very hungry
+for more power. That&amp;#39;s what happens now: You can get stuff done but you
+will probably hit some things where you&amp;#39;re just skating on the lake and have
+little insight into the depths. Don&amp;#39;t fall through the ice! These topics might well be pursued through
+more formal courses. I&amp;#39;d pick a couple of the following topics. I would delay
+going for mastery in other languages besides your primary and secondary at this
+point: You want some other flavors to broaden your palate but at this point try
+and discover the limitations of your languages with regard to these topics.&lt;/p&gt;
+
+&lt;p&gt;You probably have a job programming now. In Phase I, you were doing a lot of solo work; &lt;em&gt;but
+in a professional setting nowadays, programming is a social activity&lt;/em&gt;. You&amp;#39;ll be
+pair programming and you&amp;#39;ll be writing for others -- so your code must be legible.
+I&amp;#39;ve never seen a book that really emphasizes this point, but your ability to
+be a great programmer will be at least partially conditioned by your skills
+at working with others, accepting feedback, and correcting your recently-developed bad habits.&lt;/p&gt;
+
+&lt;p&gt;By the way, I hereby give you permission to &lt;strong&gt;&lt;em&gt;not&lt;/em&gt;&lt;/strong&gt; read whole books. Read chapters
+and leverage indices. You will also want to build up a personal wiki of
+definitions, examples, and cross-references to these books. (A great way to
+make a personal wiki is with &lt;a href="https://github.com/gollum/gollum"&gt;Gollum&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Testing and Debugging&lt;/strong&gt;. I already mentioned the &lt;em&gt;RSpec Book&lt;/em&gt;. The bad news about getting
+more sophistication in testing is that testing in most professional settings
+tends to pick different tools, so you might find that a great book on testing
+such as &lt;a target="_blank" href="https://www.amazon.com/gp/product/0321503627/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321503627&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=b3baf4e29f067cb1d76d4925f0838a0c"&gt;Growing Object-Oriented Software, Guided by Tests&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0321503627" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; is a bit hard
+because all of the examples are in Java. Same for Kent Beck&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/0321146530/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321146530&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=84e505619e5bb69e5977f6909ce82fa3"&gt;Test Driven Development&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0321146530" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;.
+In any case, you&amp;#39;d want to read the chapters (11 and 23) on test doubles
+in &lt;a target="_blank" href="https://www.amazon.com/gp/product/0131495054/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0131495054&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=86aa9331c6a978ae3f58efe1a8d9c72d"&gt;xUnit Test Patterns&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0131495054" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. I also quite like the blog
+posts on testing from ThoughtBot at &lt;a href="https://robots.thoughtbot.com/tags/testing"&gt;Giant Robots Smashing Into Other Giant Robots&lt;/a&gt;. For JavaScript testing
+in the browser, search YouTube. Testing is about practice. Reading a book will
+not create the neural pathways to get testing into your fingertips.&lt;/p&gt;
+
+&lt;p&gt;In my experience, great human debuggers are born, not made, but maybe it&amp;#39;s simply
+experience and getting to your &lt;a href="https://www.newyorker.com/news/sporting-scene/complexity-and-the-ten-thousand-hour-rule"&gt;10,000 hours&lt;/a&gt; with your language.
+(I have noticed that there are a lot of articles saying that the 10,000 hours
+observation is wrong; I wonder how many such people have acquired their 10,000 hours.)
+Anyway, you need to know your tools. Nowadays, it can help to learn all about
+the debugging features in an IDE such as IntelliJ&amp;#39;s IDEA. However, a person
+with what I would call &amp;quot;debugger brain&amp;quot; can get a lot done with print statements inserted into code.
+This tends to break down with code that uses threads; here, your best bet to
+gain expertise at debugging threaded code is to learn from Java world and Google for
+&lt;a href="https://www.google.com/search?rlz=1C5CHFA_enUS742US742&amp;amp;ei=E4RiWpzJGsnusQXqqLuoAQ&amp;amp;q=java+debugging+threads&amp;amp;oq=java+debugging+threads&amp;amp;gs_l=psy-ab.3..0j0i22i30k1l5.26414.26414.0.26605.1.1.0.0.0.0.79.79.1.1.0....0...1c.1.64.psy-ab..0.1.78....0.6PWVDpiO6Wo"&gt;&amp;quot;java debugging threads&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The machine&lt;/strong&gt;. You need to write some code where you get a feel for the fact
+that there is a machine there: CPU and memory. This could mean writing a lot of C code with
+&lt;a target="_blank" href="https://www.amazon.com/gp/product/0131103628/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0131103628&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=1743d5fa39aa2cc89bee97849087e055"&gt;The C Programming Language&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0131103628" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; at your side; or it could be about writing some
+code for a Raspberry Pi. But somewhere along the way you need to get some
+experience with memory-mapped IO, the use of bitwise operators, and the call stack. If you have
+the energy for it, you should learn assembly. Here we&amp;#39;re thinking about primitives:
+Without an operating system, how can we control access to memory? How can we
+simulate doing two things at once? This is a good time to learn tail recursion and
+some of the other things that come naturally when you exploit the machine&amp;#39;s call stack. You
+might learn how to write C extensions for Ruby.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data structures and algorithms&lt;/strong&gt;. Good programmers have at some point or
+another implemented linked lists, doubly-linked lists, hash tables, binary trees,
+n-ary trees, and have written some sorting algorithms. Personally, I think
+doing this in C is the way to go, though having said that, I learned algorithms
+from Niklaus Wirth&amp;#39;s &lt;em&gt;Algorithms + Data Structures = Programs&lt;/em&gt; where the examples
+are in Pascal. The reason to use C for learning algorithms is that in my experience
+not having classes is a plus and you&amp;#39;ll benefit from learning about pointers.
+At some point, browse at your library Knuth&amp;#39;s &lt;em&gt;The Art of Computer Programming&lt;/em&gt;. There are two
+tiers in courses and books on algorithms: There are the ones that define particular
+data structures and algorithms and challenge you to implement them; you should
+learn some of the qualities of good algorithm design, and get a feel for computability
+and get some of the lingo (Big O notation, for instance). A higher tier is &lt;em&gt;proving&lt;/em&gt;
+algorithms. At this stage in your learning, focus on the first tier.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Networking and HTTP&lt;/strong&gt;. Try &lt;a target="_blank" href="https://www.amazon.com/gp/product/0133594149/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0133594149&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=df7eb15d77e258faee8eb9573c0246a5"&gt;Computer Networking: A Top-Down Approach&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0133594149" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (expensive;
+might be on the shelf at your library - the 6th edition is probably good enough). It&amp;#39;s a textbook, but
+in this case, I think reading something that is &amp;quot;correct&amp;quot; is a great help. I have
+found that beginning developers rarely know much about HTTP, and I mean the basics:
+That requests and responses have headers, how HTTPS works, and so forth. Wikipedia
+can be very useful with these details.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Distributed computing&lt;/strong&gt;. For a programmer (as opposed to a computer scientist), it is hard to beat Mikito Takada&amp;#39;s &lt;a href="http://book.mixu.net/distsys/"&gt;Distributed Systems For Fun and Profit&lt;/a&gt;. The &amp;quot;Further Reading&amp;quot;
+section of this book has a nice list of seminal papers that are worth perusing. If you talk
+to some old-timers, you will find that a lot of their agony is tied up with distributed
+objects: There&amp;#39;s a lot to learn from your older colleagues who are experts at CORBA and RMI.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Object-oriented programming&lt;/strong&gt;. For a Rubyist, start with Sandi Metz&amp;#39;s
+&lt;a target="_blank" href="https://www.amazon.com/gp/product/0321721330/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0321721330&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=0caed899d76d68ff7f8bc606004c8750"&gt;Practical Object-Oriented Design in Ruby&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0321721330" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (a second
+edition will be out soon). By way of comparison, it is worth making a big effort to
+learn JavaScript&amp;#39;s prototypical inheritance and study the new(er) class model
+in ES6. There are a lot of resources for this on the web, but it is hard for
+me to imagine getting smart with JavaScript without reading Crocker&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/0596517742/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596517742&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=d442e574c51463d3ca6f7f9609bf2856"&gt;JavaScript: The Good Parts&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0596517742" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; and &lt;a href="https://github.com/getify/You-Dont-Know-JS"&gt;some of Kyle Simpson&amp;#39;s various books&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Functional programming&lt;/strong&gt;. I&amp;#39;d start by leveraging your already-existing knowledge
+of JavaScript through a book such as &lt;em&gt;Functional Programming in JavaScript&lt;/em&gt;. But,
+here, we begin to get into territory where you might want to go to your local
+university and take a course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unix&lt;/strong&gt;. My favorite book on Unix/Linux is Bruce Molay&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/0130083968/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0130083968&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=a8bcfd9c631af3bc799d77e9dba762fe"&gt;Understanding UNIX/LINUX  Programming: A Guide to Theory and Practice&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0130083968" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. He has a &lt;a href="https://www.extension.harvard.edu/faculty-directory/bruce-molay"&gt;couple of great courses at Harvard Extension&lt;/a&gt;. You will also
+need to become very solid in shell programming. A classic is &lt;a target="_blank" href="https://www.amazon.com/gp/product/0596003307/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596003307&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=d5ee0f02e10732fe0cef35655240321a"&gt;Unix Power Tools, Third Edition&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0596003307" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. I keep this book near my desk. A book that deserves a lot of credit is Mark Bates&amp;#39;s &lt;a href="http://conqueringthecommandline.com/"&gt;Conquering the Command Line&lt;/a&gt;. Once one starts learning Unix, it&amp;#39;s
+time to learn gdb, ptrace, strace, etc. Another person might recommend a book
+on operating system design, but I&amp;#39;d leave that for Phase III.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DevOps&lt;/strong&gt;. Here you need some high-level guidance that is almost philosophical.
+For that, &lt;a target="_blank" href="https://www.amazon.com/gp/product/1942788002/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1942788002&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=52b2744da525cec86f3b98f44096a1f4"&gt;The DevOps Handbook&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1942788002" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; is great but actually a little dry. Then you
+need to start building automation for personal projects. You must experience
+online products like Heroku, but you must also practice building your own cloud-based
+Linux systems with a tool such as Ansible. Finally, you are going to have to start
+taking notice of the cloud-based offerings from Amazon, Microsoft, and Google.
+At this point, it almost makes sense to read a certification book for AWS: There
+is so much detail that you need to be force-marched through the tools.
+Another dimension of DevOps is understanding what it means for a system to
+be in production and be able to scale: The key book is Nygard&amp;#39;s &lt;a target="_blank" href="https://www.amazon.com/gp/product/1680502395/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1680502395&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=a792e90d8ef85c676d41511e8c737667"&gt;Release It!&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1680502395" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;
+(get the second edition).&lt;/p&gt;
+
+&lt;h3&gt;Phase III&lt;/h3&gt;
+
+&lt;p&gt;And now we reach the rest of your life. You are now well-positioned to take up
+any book on programming and build it into this mental map. Here are
+some of my favorites (and I&amp;#39;m stretching the idea of programming here):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Aho, &lt;a target="_blank" href="https://www.amazon.com/gp/product/9332518661/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=9332518661&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=6cb2822f4252d4b34100ef95edd0ad81"&gt;Compilers: Principles, Techniques, and Tools&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=9332518661" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. (If you just want the
+mechanics of writing a compiler, Marc-André Cournoyer&amp;#39;s &lt;a href="http://createyourproglang.com/"&gt;How to Create Your
+Own Freaking Awesome Programming Language&lt;/a&gt; is quite
+good; I took his course on compiler construction and liked it.)&lt;/li&gt;
+&lt;li&gt;Jon Bentley, &lt;a target="_blank" href="https://www.amazon.com/gp/product/0201657880/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201657880&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=443eb840880b1c883b37cf7a7a777841"&gt;Programming Pearls&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0201657880" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. This short book is filled with interesting insights.&lt;/li&gt;
+&lt;li&gt;Martin Fowler, &lt;a target="_blank" href="https://www.amazon.com/gp/product/0201485672/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201485672&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=adf3f4826129db69c10c0930f606cd4a"&gt;Refactoring&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0201485672" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. This one is a close analysis of changes you can make to your code at smaller levels to make it
+more logical, readable, and coherent. You need to
+be a good tester first, because a key principle here is that you only refactor (rewrite code) when you have a great test harness so
+that you can verify that your functionality is the same. I would read Sandi Metz&amp;#39;s book on object-oriented programming first.&lt;/li&gt;
+&lt;li&gt;Friedman and Fellesien, &lt;em&gt;The Little Lisper&lt;/em&gt; (or &lt;em&gt;The Little Schemer&lt;/em&gt;). Everyone should know some Lisp.&lt;/li&gt;
+&lt;li&gt;Gamma, et al., &lt;a target="_blank" href="https://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201633612&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=cf27cf41653cf47b050ed01e97088368"&gt;Design Patterns&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0201633612" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (please read Sandi Metz&amp;#39;s book first; and a colleague to give
+you a tour of your codebase and point out the use of patterns by the names in this
+book). This book is more of a reference. Typically the first time people read this they don&amp;#39;t get it; after they&amp;#39;ve participated in
+some larger scale design, you wish you understood this book better beforehand!&lt;/li&gt;
+&lt;li&gt;Mike Gancarz, &lt;a target="_blank" href="https://www.amazon.com/gp/product/1555581234/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1555581234&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=112e9eb8020063c9673a8c665b5336be"&gt;The UNIX Philosophy&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1555581234" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. How to make big things out of small things.&lt;/li&gt;
+&lt;li&gt;Tracy Kidder, &lt;a target="_blank" href="https://www.amazon.com/gp/product/0316491977/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0316491977&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=08a16ed896c62886d9a4608776401a66"&gt;The Soul of A New Machine&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0316491977" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. Really the key &amp;quot;adventure romance&amp;quot; about technology.&lt;/li&gt;
+&lt;li&gt;Neal Stephenson, &lt;a target="_blank" href="https://www.amazon.com/gp/product/0553380966/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0553380966&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=36a44c66b29c21569156a1bb68cc4dcd"&gt;The Diamond Age&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0553380966" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;; you should read about public key encryption,&lt;/li&gt;
+&lt;li&gt;Tom Stuart, &lt;a target="_blank" href="https://www.amazon.com/gp/product/1449329276/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449329276&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=d38782ab41d55cb00c733be7c71107c3"&gt;Understanding Computation&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1449329276" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. A good place to start if you want to know what the lambda calculus is all about.&lt;/li&gt;
+&lt;li&gt;Andrew S. Tannenbaum, &lt;a target="_blank" href="https://www.amazon.com/gp/product/013359162X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=013359162X&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=f51a8de551907569cbb5e3da91cc70cc"&gt;Modern Operating Systems&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=013359162X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;.&lt;/li&gt;
+&lt;li&gt;Sherry Turkle, &lt;a target="_blank" href="https://www.amazon.com/gp/product/0671468480/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0671468480&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=271f9a9cfb75be044b8d09a7f4a0d4e6"&gt;The Second Self&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=0671468480" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;. A classic; still fresh.&lt;/li&gt;
+&lt;li&gt;Ellen Ullman, &lt;a target="_blank" href="https://www.amazon.com/gp/product/1250002486/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1250002486&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=916c9e00d1cc27b1cac668678b0142f1"&gt;Close to the Machine&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1250002486" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt; (perhaps the best book on computer-mediated communication ever). Another book by her that you should only read when you&amp;#39;re in a good
+mood is her novel &lt;a target="_blank" href="https://www.amazon.com/gp/product/1250002494/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1250002494&amp;linkCode=as2&amp;tag=jgn09-20&amp;linkId=cf19f2ae276ebec0e0c09267ca656210"&gt;The Bug&lt;/a&gt;&lt;img src="//ir-na.amazon-adsystem.com/e/ir?t=jgn09-20&amp;l=am2&amp;o=1&amp;a=1250002494" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;.&lt;/li&gt;
+&lt;li&gt;Charles Wetherell, &lt;em&gt;Etudes for Programmers&lt;/em&gt;. long out of print, but find a used copy and try
+the chapter on the TRAC programming language.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Values</title>
+    <link rel="alternate" href="http://7fff.com/blog/2018/02/values/"/>
+    <id>http://7fff.com/blog/2018/02/values/</id>
+    <published>2018-02-10T11:30:00-06:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;I recently read the article &lt;a href="https://www.newyorker.com/magazine/2018/02/12/the-white-darkness"&gt;The White Darkness&lt;/a&gt; in the print edition of the New Yorker -- actually I read/skimmed it and skipped bits because I wanted to know how
+it would turn out! Wow. Read it. The article enumerated the values that &lt;a href="https://en.wikipedia.org/wiki/Ernest_Shackleton"&gt;Ernest Shackleton&lt;/a&gt; (1874-1922) sought in potential recruits for his expeditions. Those values were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optimism&lt;/li&gt;
+&lt;li&gt;Patience&lt;/li&gt;
+&lt;li&gt;Physical endurance&lt;/li&gt;
+&lt;li&gt;Idealism&lt;/li&gt;
+&lt;li&gt;Courage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;#39;s a pretty good set. The article notes that Shackleton&amp;#39;s &amp;quot;conduct was studied by entrepreneurs, executives, astronauts, scientists, political strategists, and military commanders, &amp;quot; and an &amp;quot;entire subgenre of self-help literature devoted to analyzing his methods emerged.&amp;quot; Those values do seem suited to entrepreneurs. Perhaps they could use a little
+tuning; for Shackleton&amp;#39;s &amp;quot;physical endurance&amp;quot; I might substitute simply &amp;quot;endurance&amp;quot; or
+&amp;quot;sustainability&amp;quot; or &amp;quot;fitness,&amp;quot; though anyone who has worked in an early-stage
+startup would remind you to take care of your body. Those are pretty clearly
+values that an individual would hold to preserve oneself: They aren&amp;#39;t very
+&amp;quot;team-oriented&amp;quot;; we know that Shackleton himself was very focused on the survival
+of everyone on his team. I think the point here is that when you&amp;#39;re chosing people
+to do something essentially crazy, you do want them to be able to keep going
+without a lot of dependencies on others.&lt;/p&gt;
+
+&lt;p&gt;This made me think about other sets of five values (why do values come in sets of
+five?&lt;sup&gt;&lt;a id="ref1" href="#note1"&gt;1&lt;/a&gt;&lt;/sup&gt;). Here are the values of
+my company, Iora Health:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Courage&lt;/li&gt;
+&lt;li&gt;Creativity&lt;/li&gt;
+&lt;li&gt;Empathy&lt;/li&gt;
+&lt;li&gt;Humility&lt;/li&gt;
+&lt;li&gt;Passion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;They seem to go back to shortly after October, 2011, pretty close to founding, but I
+haven&amp;#39;t managed to find the originary document. I&amp;#39;m not sure if those are ordered
+by importance; we inscribe them on a cube, which perhaps suggests that they should all be taken together (the
+last side of the cube has the Iora logo). The focus seems to values that pertain especially to interpersonal relationships involved with care. On the cube, the values are
+verbalized into something you can do, like so:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Demonstrate Courage&lt;/li&gt;
+&lt;li&gt;Bring Creativity&lt;/li&gt;
+&lt;li&gt;Feel Empathy&lt;/li&gt;
+&lt;li&gt;Serve with Humility&lt;/li&gt;
+&lt;li&gt;Act with Passion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The verbs are interesting. As I reflect on these, I&amp;#39;m not so sure about
+&amp;quot;&lt;em&gt;feel&lt;/em&gt; empathy&amp;quot;: That seems a bit bottled up inside, doesn&amp;#39;t it? Is just &lt;em&gt;feeling&lt;/em&gt;
+it enough? I&amp;#39;d want to go for something like simply: Empathize. On the other
+hand, requiring a &amp;quot;demonstration&amp;quot; of courage is a little peculiar: Do I really
+have to &amp;quot;show&amp;quot; my courage? I think a lot of courageous acts are silent and not
+shared; you do something that is not in the safe zone because it&amp;#39;s the right
+thing to do. But I&amp;#39;m not sure it requires &amp;quot;demonstration.&amp;quot; (The dictionary is
+pretty clear that &amp;quot;demonstrating&amp;quot; is not about hidden things. One definition of &amp;quot;demonstrate&amp;quot; is:
+&amp;quot;clearly show the existence or truth (of something) by giving proof or evidence&amp;quot;;
+and the first few synonyms are reveal, bespeak, indicate, and signify). We have
+some internal documents that provide some guidance for each of the values. A
+few are interesting. For example, for &amp;quot;creativity&amp;quot; we say: &amp;quot;Use good judgement
+to do the right thing for our patients.&amp;quot; Of course we should do that, but it
+is provocative that the gloss on &amp;quot;bring creativity&amp;quot; is converted into a matter of
+ethics. I approve of that, but it&amp;#39;s a twist. Still,
+I would challenge any other company focussed on human relationships and caring
+to come up with an equally powerful list.&lt;/p&gt;
+
+&lt;p&gt;Here are the values of Scrum:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Commitment&lt;/li&gt;
+&lt;li&gt;Courage&lt;/li&gt;
+&lt;li&gt;Focus&lt;/li&gt;
+&lt;li&gt;Openness&lt;/li&gt;
+&lt;li&gt;Respect&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These values are quite appropriate to Scrum, and each seems to have been
+carefully chosen. I can see elements of Scrum that touch on particular values.
+Scrum, for example, expects work to be delivered in short increments; &lt;em&gt;focus&lt;/em&gt;
+fits that. Meanwhile, Scrum requires retrospective meetings, where the team
+is enjoined to &amp;quot;inspect and adapt,&amp;quot; and improve the process: Thus we have
+&lt;em&gt;openness&lt;/em&gt; and &lt;em&gt;respect&lt;/em&gt;. And the team is self-determining: How can you do
+that without making a &lt;em&gt;commitment&lt;/em&gt; to your team members?&lt;/p&gt;
+
+&lt;p&gt;As I look at these different sets, I think they can be tied together with
+respect to some over-arching goal. And here&amp;#39;s what I see:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shackleton&amp;#39;s values of optimism, patience, physical endurance, idealism, courage: &lt;strong&gt;Survive&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Iora&amp;#39;s values of courage, creativity, empathy, humility, passion: &lt;strong&gt;Care&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Scrum&amp;#39;s values of commitment, courage, focus, openness, respect: &lt;strong&gt;Deliver&lt;/strong&gt; (as a team)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just speaking for myself, I want to live all of these values, but keep in
+mind their contexts. When I think about myself in the context of a startup,
+I want to enact Shackleton&amp;#39;s values, and survive. When engaged in work devoted to care, it&amp;#39;s Iora&amp;#39;s.
+And, finally, when I think about the work I do rowing with my team members,
+it&amp;#39;s the Scrum values supporting delivery.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a id="note1" href="#ref1"&gt;1.&lt;/a&gt; I don&amp;#39;t know, but here are the number of
+hits I get for each of &amp;quot;three core values,&amp;quot; &amp;quot;four core values,&amp;quot; etc., up to
+eight. It&amp;#39;s a rough decline but a bump at five. Hmm.&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;number&lt;/th&gt;
+&lt;th style="text-align: right"&gt;hits&lt;/th&gt;
+&lt;th&gt;notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;three&lt;/td&gt;
+&lt;td style="text-align: right"&gt;307,000&lt;/td&gt;
+&lt;td&gt;Top hit: &lt;a href="https://www.linkedin.com/pulse/you-have-more-than-3-core-values-think-again-dave-kerpen"&gt;&amp;quot;If You Have More Than 3 Core Values, Think Again&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;four&lt;/td&gt;
+&lt;td style="text-align: right"&gt;157,000&lt;/td&gt;
+&lt;td&gt;&lt;a href="http://www.ymca.net/organizational-profile"&gt;The YMCA&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;five&lt;/td&gt;
+&lt;td style="text-align: right"&gt;170,000&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;six&lt;/td&gt;
+&lt;td style="text-align: right"&gt;119,000&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;seven&lt;/td&gt;
+&lt;td style="text-align: right"&gt;39,200&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.army.mil/values/"&gt;The Army&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;eight&lt;/td&gt;
+&lt;td style="text-align: right"&gt;18,100&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;nine&lt;/td&gt;
+&lt;td style="text-align: right"&gt;22,200&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ten&lt;/td&gt;
+&lt;td style="text-align: right"&gt;15,000&lt;/td&gt;
+&lt;td&gt;Zappos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Fournier, The Manager's Path&amp;#58; A Guide for Tech Leaders Navigating Growth and Change (Book Review)</title>
+    <link rel="alternate" href="http://7fff.com/blog/2017/09/fournier-the-manager-s-path-a-guide-for-tech-leaders-navigating-growth-and-change-book-review/"/>
+    <id>http://7fff.com/blog/2017/09/fournier-the-manager-s-path-a-guide-for-tech-leaders-navigating-growth-and-change-book-review/</id>
+    <published>2017-09-02T10:48:00-05:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;Camille Fournier&amp;#39;s book &lt;a href="http://amzn.to/2x0Tou9"&gt;The Manager&amp;#39;s Path: A Guide for Tech Leaders Navigating
+Growth and Change&lt;/a&gt; is a wonderful guide to understanding
+the different roles and processes in engineering leadership. If you&amp;#39;re in an
+engineering organization and have wondered about the distribution of
+responsibility, how and why different people do different things, and how to set
+up or change your organization: Read it. Some people may want to read this book
+because it delves into questions such as &amp;quot;what is a tech lead?&amp;quot; (Chapter 3) and
+&amp;quot;what is the difference between a CTO and a VP of Engineering?&amp;quot; (much of Chapter
+8) -- these sections are good for asking questions, but the variety of
+engineering organizations makes the specific recommendations hard to
+operationalize. So what I like about this book is more the expanse of its map,
+rather than the specific terrain. I have some reservations which I&amp;#39;ll get to in
+a few moments, but there are some real gems here. In particular:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 1, &amp;quot;Management 101.&amp;quot;&lt;/strong&gt; This is not really about &amp;quot;management&amp;quot; in a tech
+organization, but rather an explanation of what to expect from your manager, and,
+basically, how to behave so as to get the most out of your manager. The chapter
+has very little in it that is engineering-specific: Its audience is people
+who work on projects. I think for most anyone, especially those starting out
+on their first professional jobs, this chapter is a significant step up: By knowing
+something about the psychology of the manager/managed-person relationship, one
+becomes empowered. There is a lot I can do for my reports, and I often suggest
+things, but it is far better for the employee to have some understand of how
+one&amp;#39;s manager can be leveraged. I took a peek at &lt;a href="http://shop.oreilly.com/product/0636920056843.do"&gt;the publisher&amp;#39;s page for this book&lt;/a&gt;, and
+I must say that this chapter should be a free download: It might be a good one
+to hand out to undergrads who are poised for their first professional positions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 7, &amp;quot;Managing Managers.&amp;quot;&lt;/strong&gt; The reason this chapter is so critical is
+because it touches something very mysterious, namely, how to be involved with
+the entire management hierarchy, where you are perched in the higher realms. Fournier advises
+&amp;quot;Skip-Level Meetings&amp;quot; (pp. 128-131) where you take the time to talk to people
+who report to people who report to you. She tells us that needs to be done with some care,
+because there are ways to upset just about everyone if you are perceived to
+be spying on your own reports. The chapter also touches on being too much
+of a people-pleaser: this is an occupational hazard that needs to be guarded against
+and trained out of people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chapter 9, &amp;quot;Bootstrapping Culture.&amp;quot;&lt;/strong&gt; Here Fournier talks about the transition
+from the lack of structure which is endemic to many early-stage startups, to
+more structured/hierarchical organizations. I wouldn&amp;#39;t recommend reading this
+for the particular bits of advice, but rather to get a map of the problems
+one will encounter regarding structure. There is a solid discussion of how
+you create a promotions ladder for engineers and engineering managers: I know
+this is good because I recently participated in constructing one of these; I wish
+I had read her book beforehand. To Fournier&amp;#39;s credit, she notes that her first attempt
+at this was a failure, and it was only after distributing some of the work to experienced team members that
+she could get a ladder that was clear, acceptable to the team, and actionable. My
+company&amp;#39;s culture would never tolerate an individual creating such a ladder, so we
+tapped the experience of senior engineers: Still, the main points here are quite
+valid.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Throughout the book, Fournier alludes to her own personality and challenges: I
+wish there had been even more of this, because I found her momentary confessions
+quite engaging. We learn pretty early on that she engaged a professional coach
+(p. 125); coaching is not for everyone, but learning more about this in a
+concentrated way would be useful (I&amp;#39;d like to note additionally that there&amp;#39;s a
+story around how coaching can be abused; maybe she hasn&amp;#39;t seen that). Later on
+we find that she &amp;quot;lost [her] voice repeatedly during my first few months
+managing multiple teams&amp;quot; (p. 107); Wow--I&amp;#39;d be curious to hear her war stories (no
+doubt they are not suitable for publication).&lt;/p&gt;
+
+&lt;p&gt;But I have some concerns around how the book talks about work delivery, the role of
+hiring, and the basic premise that you, the reader, have to fix things up
+by yourself. I don&amp;#39;t want to offer these as criticisms as much as thinking through
+matters of emphasis and possibilities for more counsel.&lt;/p&gt;
+
+&lt;h4&gt;Organizing work delivery&lt;/h4&gt;
+
+&lt;p&gt;My first concern is that the book has a bit of a split personality around
+technical methodology and work planning.&lt;/p&gt;
+
+&lt;p&gt;On the one hand, it would seem that Fournier is in the &amp;quot;agile&amp;quot; camp. In her
+Chapter 6 on &amp;quot;Managing Multiple Teams,&amp;quot; she pretty much berates the reader to
+release code frequently (p. 115), write tests (&amp;quot;I find that engineers who don&amp;#39;t
+write tests often have a hard time breaking down their work&amp;quot;; p. 117), and check
+in code frequently (ibid.). All of these practices are about reducing batch size
+and continuous delivery -- things we know about from twenty-five years of agile
+development and extreme programming. Meanwhile, later on, there is good stuff
+about depersonalizing code reviews (pp. 213-214). And there is a great section
+on organizing your delivery teams as cross-functional groups (pp. 208-211): &amp;quot;The
+cross-functional team worked as a group to design and delivery the feature . . .
+the contributors all felt that they understood the goals of the project&amp;quot; (p.
+209). This is basically Scrum; her discussion comes very close to suggesting
+that the team is self-organizing. I think this is what Fournier likes, and it
+would seem that especially recently her teams have been productive working this
+way (in contrast, she alludes to having worked in Finance with very critical
+colleagues, while her present is more functional and agreeable).&lt;/p&gt;
+
+&lt;p&gt;And yet: there is a rather long section on traditional project management (pp.
+34-39), espousing dependency analysis (suggesting &amp;quot;a spreadsheet, or a Gantt
+chart, or whatever works for you&amp;quot;). I almost wanted to cry when I read this. I
+can&amp;#39;t think of the last time I saw an effective engineering organization deliver
+the right thing quickly using detailed resource and time planning. Tied to this
+is an idea that managers own things as individuals: &amp;quot;Jane has given her tech
+lead Sanjay a big project to manager&amp;quot;; &amp;quot;Sharell has given Beth her first big
+project to run&amp;quot; (57). I am not sure that the emphasis on hierarchy here fits
+high-performing engineering organizations any more. A useful distinction might
+be to stress that while &lt;em&gt;responsibility&lt;/em&gt; might be hierarchical, &lt;em&gt;delivery&lt;/em&gt;
+doesn&amp;#39;t have to be, at least not all the way down. Another way to get at this
+might be to better describe management roles that are more
+strategically-oriented, rather than about delivery. Some highly effective
+companies practice &lt;a href="https://en.wikipedia.org/wiki/Holacracy"&gt;&amp;quot;holocracy&amp;quot;&lt;/a&gt; (Zappos; Valve): so I think the kind of
+hierarchical engineering management assumed here may need some leavening by
+other patterns.&lt;/p&gt;
+
+&lt;p&gt;Of course a book can only do so much. I think that the catch here is that
+Fournier felt that to write a book about the &amp;quot;manager&amp;#39;s path&amp;quot; requires some
+accounting of project management. And yet, the book has a strong undertow of the
+author feeling that agile is the way to go. So I would say: Put the traditional
+project management discussion into an appendix, and be forthright about what, in
+the author&amp;#39;s experience, actually works. There are apologies in the book, e.g.,
+&amp;quot;I want to make clear that I&amp;#39;m not suggesting that you go into waterfall&amp;quot; (p.
+93); &amp;quot;I&amp;#39;m not going to advocate for any particular software development
+methodology&amp;quot; (p. 117). Please. Go for it.&lt;/p&gt;
+
+&lt;p&gt;Another oddity about the book is that sometimes the tone suggests that shit just
+happens, and you have to accommodate. For instance: &amp;quot;Crunch periods will happen&amp;quot;
+(p. 81). What&amp;#39;s funny here is that elsewhere in the book, Fournier is quite
+eloquent on creating a culture where this shouldn&amp;#39;t happen -- by intention and
+design:&lt;/p&gt;
+&lt;blockquote class="blockquote"&gt;&lt;p&gt;Go home! And stop emailing people at all hours of the night and all hours of
+the weekend! Forcing yourself to disengage is essential for your mental health,
+believe me. Burnout is a real problem in the American workforce these days,
+and almost everyone I know who has worked sustained excess hours has experienced
+it to some degree. It&amp;#39;s terrible for individuals, terrible for their families,
+and terrible for teams. But this isn&amp;#39;t just about preventing your own burnout--it&amp;#39;s about
+preventing your team&amp;#39;s burnout. When you work later than everyone else, when you
+send those emails at all hours, even if you don&amp;#39;t expect your team to respond
+to those emails or work those hours, they see you doing it and think it&amp;#39;s important.
+And that overwork makes them less effective, especially at the detailed knowledge
+work that engineers need to perform. (p. 122).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I read this as saying that good management and good managers design crunch
+periods out of the system. What provoked this rant from Fournier? It&amp;#39;s because
+of questions managers ask: &amp;quot;when managers ask whether something can be done
+faster, what they explicitly or implicitly want to know is whether the team can
+work harder or longer hours to delivery it in fewer days&amp;quot; (p. 122). Her
+immediate answer is to &amp;quot;encourage you to develop and show the value of laziness
+[i.e., getting your software and process to work for you]&amp;quot; (ibid.), but I don&amp;#39;t
+think this line of argument is going to work with non-technical bosses and
+peers. There&amp;#39;s a nice bit in the book called &amp;quot;Ask the CTO: I have a Nontechnical
+Boss,&amp;quot; followed by some guidance on &amp;quot;Senior Peers in Other Functions&amp;quot; (pp.
+176-180); if there&amp;#39;s a second edition of the book, I&amp;#39;d like to see this expanded
+to a chapter and include a discussion of how to advocate for the &amp;quot;right thing&amp;quot;
+for engineering. In my experience over the last twenty years with many
+non-technical bosses, I have found that training them is a big deal and quite an
+adventure.&lt;/p&gt;
+
+&lt;h4&gt;Hiring&lt;/h4&gt;
+
+&lt;p&gt;I have already mentioned an occasion where the book concedes that shit happens.
+Of course it does. One of the best ways to keep shit from happening is to hire
+the right people, fire the misfits, and get great at onboarding. Hiring is here
+rather an &lt;em&gt;incidental&lt;/em&gt; topic (discussed in Chapters 2, 4, 6, 7, 8). The book
+would benefit by breaking all of the observations about hiring out into a
+separate chapter. For example, in the chapter on &amp;quot;Managing a Team,&amp;quot; we learn
+that the &amp;quot;best way to avoid brilliant jerk syndrome is to simply not hire one&amp;quot;
+(p. 91). Right, but . . . there&amp;#39;s so much that goes with this. Another reason to
+emphasize hiring in its own place is that Fournier is quite good on the perils
+of hiring friends of friends, which can reduce diversity, and, in the worst
+cases, be discriminatory (p. 202).&lt;/p&gt;
+
+&lt;h4&gt;The &amp;quot;aloneness&amp;quot; of the audience&lt;/h4&gt;
+
+&lt;p&gt;This is going to be a hard thing for me to capture, but I was struck by how this
+book speaks to an audience of one, namely, the individual who is traversing the
+hierarchy. Here&amp;#39;s an example about coaching: &amp;quot;continuous feedback works best
+when &lt;em&gt;you, as a manager&lt;/em&gt;, pair that feedback with coaching . . . there will be
+times when &lt;em&gt;you don&amp;#39;t have either the qualifications or the capability to
+provide the coaching that everyone on your team needs&lt;/em&gt;&amp;quot; (emphasis added; p. 63).
+This worries me. This is in Chapter 4, &amp;quot;Managing People,&amp;quot; but I am not sure that
+an individual self-consciously inventing and providing coaching is something
+that an individual should take on herself. I.e., I suspect that the coaching
+role/aspect really needs to be programmatically designed into the engineering
+structure, so that at every level, people know that coaching exists, that it has
+a pattern, and that in some cases the individual requires coaching from someone
+other than the manager. One reason that patterns around coaching need to be
+developed programmatically is that managers should get credit for it.
+Self-initiated investments of management techniques can backfire when they are
+reported during a self-review, and one&amp;#39;s own manager wonders why this was done.
+Another example: &amp;quot;your new manager can be shockingly clueless as to even the
+basics&amp;quot; of running 1:1s and similar things (p. 136). Yes, this is true, but I
+wonder if this is for &amp;quot;you&amp;quot; to accommodate, or if it means that you need to get
+a job where there&amp;#39;s a more coherent plan for training managers. Thus, every time
+I read these counsels to the-reader-as-individual I realize that the critical
+audience is really not the mid-level manager, but engineering leadership.
+&lt;em&gt;Leaders&lt;/em&gt; should be establishing coaching patterns. If you as an individual have
+to work up your own ideas of coaching, I would worry that they would diverge
+from what the culture of the organization needs. Coaching&amp;#39;s a specific case, but
+my more general point is this: Every time the book tells the individual how to
+fix something up, I wonder to what extent such a problem deserves an
+organizational solution and needs to be addressed formally. It may be that the
+orientation to the individual sufferer is semi-autobiographical: In the
+conclusion Fournier tells us that &amp;quot;The most important lesson I&amp;#39;ve learned is
+that you have to be able to manage yourself&amp;quot; and that &amp;quot;For me, having a
+meditation practice has been essential to developing self-management and
+self-awareness&amp;quot; (p. 217). These are great points. I almost wish the book split
+the story of &amp;quot;you&amp;quot; from the story of getting engineering organized properly.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sutherland, Scrum&amp;#58; The Art of Doing Twice the Work in Half the Time (Book Review)</title>
+    <link rel="alternate" href="http://7fff.com/blog/2017/08/sutherland-scrum-the-art-of-doing-twice-the-work-in-half-the-time-book-review/"/>
+    <id>http://7fff.com/blog/2017/08/sutherland-scrum-the-art-of-doing-twice-the-work-in-half-the-time-book-review/</id>
+    <published>2017-08-25T11:50:00-05:00</published>
+    <updated>2021-03-30T19:53:30-05:00</updated>
+    <author>
+      <name>jgn</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://amzn.to/2gc5n0Q"&gt;Scrum: The Art of Doing Twice the Work in Half the
+Time&lt;/a&gt; is a great refresh of the history and ideas around
+Scrum. I first learned about agile and Scrum back around 1999 and read Ken
+Schwaber’s book &lt;em&gt;Agile Software Development with Scrum&lt;/em&gt; (2001). Scrum started as
+a way to deliver &lt;em&gt;software&lt;/em&gt; faster, and Schwaber’s book is rooted in agile
+tactics for software, and, I think, Schwaber’s book talked about it as a way to
+do “Extreme Programming” (XP) specifically.&lt;/p&gt;
+
+&lt;p&gt;This new book is about organizing almost any kind of delivery via Scrum. So now
+we’re not just delivering complex software products, but any product. The book
+is a bit of a brag book, too, because Sutherland recounts the many different
+kinds of organizations using Scrum for various things. [Full disclosure, by the
+way: I was trained as a Scrum product owner by J.J. Sutherland, the co-author of
+the book.] Very generally, I&amp;#39;d say that if you know Scrum from the late 1990s or
+2000s, or if you&amp;#39;ve just picked it up by osmosis, now is the time to get
+up-to-date with this revisioning of Scrum.&lt;/p&gt;
+
+&lt;p&gt;I want to pick out a few things that are emphasized here that aren’t pushed very
+strongly elsewhere.  Some of these are rejiggerings and subtle changes in
+emphasis. For instance: “Scrum is the &lt;em&gt;framework&lt;/em&gt; I built to put these values
+[of the agile manifesto] into practice. There is &lt;em&gt;no methodology&lt;/em&gt;” (13; emphasis
+added). This is a pretty big deal. In recent years there has been a
+reduction in the force of Scrum because people have codified it as a
+“methodology.” But Scrum is highly adaptive, and asks the practitioner to
+“inspect and adapt” and improve the practice as you go along. Therefore, there
+is no strict methodology: Scrum is more of a way of practice, and this deserves
+triple underlining. One thing I have learned from great Scrum practitioners such
+as Angela Johnson is that the values come first. If you are implementing Scrum
+simply by “turning the crank” and using the ceremonies and roles, you may be
+missing the point. The book does a good job at emphasizing the Scrum retro in
+which the team reflects on how it can improve. It’s the critical moment of
+self-consciousness when one directly lives the values of the agile manifesto.&lt;/p&gt;
+
+&lt;p&gt;Another departure from representations of Scrum is an account of the origins.
+Sutherland particularly notes Scrum’s roots in the Air Force’s fighter pilot
+“OODA Loop” (Observe Orient, Decide, Act), and the Toyota/lean PDCA practice
+(Plan, Do, Check, Act) (Chapter 2, 23-39). The point here, again, is that Scrum
+is about its values and becoming adaptive: As the authors put it: Change or Die.
+Given the rapidly changing competitive landscape in most industries nowadays,
+you had better do that. But how? Again, Scrum is the framework, and through its
+practices you can become more responsive.&lt;/p&gt;
+
+&lt;p&gt;A couple of other rejiggerings: It is not uncommon in Scrum books and manuals to
+put the Scrum Master and Product Owner roles first; but in this book, the idea
+of the team comes first. Based on my experience with Scrum, I think this is
+entirely appropriate (a recent book, &lt;em&gt;The Art of Business Value&lt;/em&gt;, even wonders
+if we really need Product Owners . . . but I digress). The team should be
+self-contained: “When you look at the best teams . . . there isn’t this
+separation of roles. Each team has all the people on it to do everything, soup
+to nuts”; you need “all the skills necessary to get the job done” (53; 54).
+While people are brought into the team to cover all of its needs as a unit, you
+might still cross-train to reduce the bottlenecks of specialization (54).
+However, there is a tricky unresolved puzzle here in Scrum: While people are
+brought into the team to ensure that all needs are covered internally (implying
+specialization at formation, I would think), the creation of multiple
+communications paths through the specialists is a cost: “how could we get that
+kind of saturation [few communication paths through specialists] on our team?
+The thing that cripples communication saturation is specialization — the number
+of roles and titles in a group. If people have a special title, they tend to do
+only things that seem a match for that title. And to protect the power of that
+role, they tend to hold on to specific knowledge. So we got rid of all titles”
+(78). Based on what I have seen, this is why Scrum and institutional change are
+so tied together: For a small team to work efficiently, everyone must know
+everything, so that no one is a bottleneck. This is quite difficult in practice.
+There could be a whole additional chapter on how to change your organization so
+that knowledge isn&amp;#39;t siloed and team members can fill in everywhere.&lt;/p&gt;
+
+&lt;p&gt;Another new rejiggering is the focus on time management: E.g., against
+multitasking (88-94), for small batches (94-97), getting it right the first time
+so as not to repair stuff later (97-100). Here Sutherland brings in a number of
+sound management discoveries from the last 40 years. But, really, this is
+something of an extension of Scrum as it has been developed over the last couple
+of decades. This is a bit of a flaw in the book: There’s Scrum and
+“extras,” and the book tends to bind into Scrum a lot of the extras: For
+instance, estimation and burndown charts (Chapter 6). Yes, there’s estimation in
+the &lt;a href="http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf"&gt;Scrum
+Guide&lt;/a&gt;
+but the approach here is pretty prescriptive. Burndown charts are mentioned only
+in passing in the Scrum Guide. In other words: Not core Scrum. In my opinion, a
+significant part of the benefit of Scrum is its limitation in scope. You can
+build other things on top of it, but only the ceremonies and roles are really
+essential.&lt;/p&gt;
+
+&lt;p&gt;The last thing I want to pick out is what is to my mind the great gap in Scrum:
+the framework does not extend upwards to business strategy. Scrum is truly
+demarcated by the perspective of the product / product owner. So, on p. 50, we
+are told that it’s “management’s role to set the strategic goals, but it’s the
+team’s job to decide how to reach those goals.” OK, that’s great: I love the
+distinction between management’s saying “what” will be delivered while the team
+decides “how”; but Scrum is really a framework for delivery only. Where does
+that strategy come from? Who decided that &lt;em&gt;this&lt;/em&gt; product is going to be built?
+Is it just given to the Product Owner on tablets from heaven? This leaves a lot
+of people scratching their heads wondering how Scrum deals with strategy. Note
+that Sutherland says “I rarely recommend that CEOs or other senior executives be
+Product Owners” (179). So here you see that there is a distinction between Scrum
+(delivery) and not-Scrum (strategy). Then Sutherland says that “The key is to
+decide what the measure of value is and hold the Product Owner accountable for
+delivering more of it” (180). So where do these measures come from? Sutherland
+doesn’t really say, except to note that “In a business context, what matters is
+revenue” (180). I guess so! I think this is the big gap in
+Scrum: A lack of an account of how to couple a company’s vision, strategy, and
+delivery. Scrum has tried to articulate some of this via the idea of a “Scrum of
+Scrums” or through “Scrum at Scale” or SAFe: But since this book is supposed to
+be a short &lt;em&gt;vade mecum&lt;/em&gt; for Scrum, and this is isn’t addressed . . . I’d call
+this a sort of bug (not a feature) in Scrum. In the book, we get some thoughts
+on organizing a whole company in a Scrummy way through the example of Valve,
+which has no managers: But that is skimmed over. There’s a real story
+here that might be about the combination of frameworks more dedicated to
+strategy (such as OKRs) and Scrum (for delivery only).&lt;/p&gt;
+</content>
+  </entry>
+</feed>
