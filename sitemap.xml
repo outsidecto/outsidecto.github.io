@@ -4,6 +4,9 @@
     <loc>https://www.outsidecto.com/2007/08</loc>
   </url>
   <url>
+    <loc>https://www.outsidecto.com</loc>
+  </url>
+  <url>
     <loc>https://www.outsidecto.com/blog/2007/08/escape-9-5-live-anywhere-and-join-the-new-rich-book-review</loc>
   </url>
   <url>
@@ -145,6 +148,9 @@
     <loc>https://www.outsidecto.com/blog/2007/11/pro-active-record-book-review</loc>
   </url>
   <url>
+    <loc>https://www.outsidecto.com/2014/01</loc>
+  </url>
+  <url>
     <loc>https://www.outsidecto.com/2013</loc>
   </url>
   <url>
@@ -209,9 +215,6 @@
   </url>
   <url>
     <loc>https://www.outsidecto.com/blog/2007/12/management-and-the-bugs-database</loc>
-  </url>
-  <url>
-    <loc>https://www.outsidecto.com</loc>
   </url>
   <url>
     <loc>https://www.outsidecto.com/2012/07/14/the-most-important-social-network-github</loc>
@@ -320,8 +323,5 @@
   </url>
   <url>
     <loc>https://www.outsidecto.com/2014</loc>
-  </url>
-  <url>
-    <loc>https://www.outsidecto.com/2014/01</loc>
   </url>
 </urlset>
