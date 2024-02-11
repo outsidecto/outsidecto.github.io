@@ -1,0 +1,1 @@
+$(function(){var a=window.location.pathname.split("/").find(function(a){return"/"!=a&&""!=a}),t=document.querySelectorAll(".navbar li.nav-item");Array.prototype.forEach.call(t,function(t){var n=t.querySelectorAll("a")[0],e=n.pathname,l=e.split("/")[1];a==l&&t.classList.add("active")})});

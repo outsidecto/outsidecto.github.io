@@ -1,1 +1,0 @@
-$(function(){var n="/"+window.location.pathname.split("/").find(function(n){return"/"!=n&&""!=n});$(".navbar li.nav-item").each(function(){$(this).find("a").attr("href")==n&&$(this).addClass("active")})});
