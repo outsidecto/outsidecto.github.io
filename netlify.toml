@@ -13,5 +13,6 @@
     img-src 'self';
     form-action 'self';
     """
+    X-Frame-Options: SAMEORIGIN
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"
