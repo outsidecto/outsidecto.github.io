@@ -13,7 +13,7 @@
     img-src      'self';
     form-action  'self';
     base-uri     'none';
-    require-trusted-types-for 'none';
+    require-trusted-types-for 'script';
     """
     X-Frame-Options        = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
