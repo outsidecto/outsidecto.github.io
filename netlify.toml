@@ -22,5 +22,5 @@
   [plugins.inputs]
     reportOnly = false
     unsafeEval = false
-    path = ".*"
+    # path = ".*"
     excludedPath = []
