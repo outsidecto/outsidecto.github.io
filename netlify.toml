@@ -1,4 +1,8 @@
 [build]
   command = "echo Hi!"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self';"
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"
