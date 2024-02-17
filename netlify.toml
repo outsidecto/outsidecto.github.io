@@ -16,5 +16,6 @@
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin"
+    Feature-Policy = "geolocation 'self'"
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"
