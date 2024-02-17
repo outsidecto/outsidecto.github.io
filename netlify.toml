@@ -12,7 +12,7 @@
     connect-src  'self' https://links.services.disqus.com;
     img-src      'self';
     form-action  'self';
-    base-url     'none';
+    base-uri     'none';
     """
     X-Frame-Options        = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
