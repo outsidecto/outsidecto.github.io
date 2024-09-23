@@ -109,9 +109,6 @@
     <loc>https://www.outsidecto.com/blog/2018/03/hansen-great-at-work-how-top-performers-do-less-work-better-and-achieve-more-book-review</loc>
   </url>
   <url>
-    <loc>https://www.outsidecto.com/about</loc>
-  </url>
-  <url>
     <loc>https://www.outsidecto.com/blog/2011/03/russ-olsen-s-eloquent-ruby-and-the-teaching-of-ruby</loc>
   </url>
   <url>
@@ -131,6 +128,9 @@
   </url>
   <url>
     <loc>https://www.outsidecto.com/blog/2008/03/my-start-up-life-book-review</loc>
+  </url>
+  <url>
+    <loc>https://www.outsidecto.com/about</loc>
   </url>
   <url>
     <loc>https://www.outsidecto.com/blog/2011/02/rapid-software-development-with-my-8-year-old</loc>
